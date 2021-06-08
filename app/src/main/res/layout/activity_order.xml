@@ -4,7 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OrderActivity">
+    tools:context=".OrderActivity"
+    android:background="@drawable/oder">
+
+
 
     <TextView
         android:id="@+id/orderText"
@@ -25,15 +28,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:id="@+id/thankyou"
         android:onClick="thankYou"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Thank You"
         tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        
 
 </androidx.constraintlayout.widget.ConstraintLayout>
